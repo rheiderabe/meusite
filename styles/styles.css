@@ -37,7 +37,7 @@ body {
 .navbar-login {
     position: absolute;
     display: inline-block;
-    right: 200px;
+    right: 285px;
     top: 30px;     
 }
 .navbar-login a{
@@ -58,4 +58,14 @@ a:hover {
 .signup:hover {
     background-color: #d3d3d3;
     font-weight: 700;
+}
+.container {
+    width: 70%;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    margin:40px auto;
+    padding: 20px;
+}
+h1{
+    font-weight: 400;
 }

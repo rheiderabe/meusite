@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 body {
     margin: 0px;
     padding: 0px;
     background-color: #FAFBFD;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 .navbar {
     width:100%;
@@ -11,6 +15,47 @@ body {
 }
 .navbar-content {
     width:70%;
+    height:80px;
     margin:0 auto;
-    background-color: #000000;
+}
+.navbar-content img {
+    padding-top: 5px;
+}
+.navbar-links a {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    color: #444444;
+    margin-left:40px;
+}
+.navbar-links {
+    position: absolute;
+    display: inline-block;
+    padding-top:30px;
+    padding-left: 50px;
+}
+.navbar-login {
+    position: absolute;
+    display: inline-block;
+    right: 200px;
+    top: 30px;     
+}
+.navbar-login a{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    color: #444444;
+    margin-left:40px;
+}
+a:hover {
+    font-weight: 700;
+}
+.signup {
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 15px 50px 15px 50px;
+}
+.signup:hover {
+    background-color: #d3d3d3;
+    font-weight: 700;
 }
